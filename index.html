@@ -32,6 +32,48 @@
         Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum.
       </p>
+      <code>
+        chooseOperation(operation) {
+        if (this.currentOperand === '') return
+        if (this.previousOperand !== '') {
+          this.compute()
+        }
+        this.operation = operation
+        this.previousOperand = this.currentOperand
+        this.currentOperand = ''
+      }
+      compute() {
+      let computation
+      const prev = parseFloat(this.previousOperand)
+      const current = parseFloat(this.currentOperand)
+      if (isNaN(prev) || isNaN(current)) return
+      switch (this.operation) {
+        case '+':
+          computation = prev + current
+          break
+        case '-':
+          computation = prev - current
+          break
+        case '*':
+          computation = prev * current
+          break
+        case '÷':
+          computation = prev / current
+          break
+        default:
+          return
+      }
+      this.currentOperand = computation
+      this.operation = undefined
+      this.previousOperand = ''
+      }
+      </code>
+
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+      </ol>
     </section>
     <section class="main-section" id="what_you_should_aready_know">
       <header>
@@ -53,6 +95,47 @@
         Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum.
       </p>
+      <code>
+        chooseOperation(operation) {
+        if (this.currentOperand === '') return
+        if (this.previousOperand !== '') {
+          this.compute()
+        }
+        this.operation = operation
+        this.previousOperand = this.currentOperand
+        this.currentOperand = ''
+      }
+      compute() {
+      let computation
+      const prev = parseFloat(this.previousOperand)
+      const current = parseFloat(this.currentOperand)
+      if (isNaN(prev) || isNaN(current)) return
+      switch (this.operation) {
+        case '+':
+          computation = prev + current
+          break
+        case '-':
+          computation = prev - current
+          break
+        case '*':
+          computation = prev * current
+          break
+        case '÷':
+          computation = prev / current
+          break
+        default:
+          return
+      }
+      this.currentOperand = computation
+      this.operation = undefined
+      this.previousOperand = ''
+      }
+      </code>
+      <ol>
+        <li>Python</li>
+        <li>CSS</li>
+        <li>JS</li>
+      </ol>
     </section>
 
     <section class="main-section" id="javascript_and_java">
@@ -75,6 +158,47 @@
         Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum.
       </p>
+      <code>
+        chooseOperation(operation) {
+        if (this.currentOperand === '') return
+        if (this.previousOperand !== '') {
+          this.compute()
+        }
+        this.operation = operation
+        this.previousOperand = this.currentOperand
+        this.currentOperand = ''
+      }
+      compute() {
+      let computation
+      const prev = parseFloat(this.previousOperand)
+      const current = parseFloat(this.currentOperand)
+      if (isNaN(prev) || isNaN(current)) return
+      switch (this.operation) {
+        case '+':
+          computation = prev + current
+          break
+        case '-':
+          computation = prev - current
+          break
+        case '*':
+          computation = prev * current
+          break
+        case '÷':
+          computation = prev / current
+          break
+        default:
+          return
+      }
+      this.currentOperand = computation
+      this.operation = undefined
+      this.previousOperand = ''
+      }
+      </code>
+      <ol>
+        <li>JAVA</li>
+        <li>CSS</li>
+        <li>JS</li>
+      </ol>
     </section>
 
     <section class="main-section" id="hello_world">
@@ -97,6 +221,47 @@
         Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum.
       </p>
+      <code>
+        chooseOperation(operation) {
+        if (this.currentOperand === '') return
+        if (this.previousOperand !== '') {
+          this.compute()
+        }
+        this.operation = operation
+        this.previousOperand = this.currentOperand
+        this.currentOperand = ''
+      }
+      compute() {
+      let computation
+      const prev = parseFloat(this.previousOperand)
+      const current = parseFloat(this.currentOperand)
+      if (isNaN(prev) || isNaN(current)) return
+      switch (this.operation) {
+        case '+':
+          computation = prev + current
+          break
+        case '-':
+          computation = prev - current
+          break
+        case '*':
+          computation = prev * current
+          break
+        case '÷':
+          computation = prev / current
+          break
+        default:
+          return
+      }
+      this.currentOperand = computation
+      this.operation = undefined
+      this.previousOperand = ''
+      }
+      </code>
+      <ol>
+        <li>C#</li>
+        <li>CSS</li>
+        <li>JS</li>
+      </ol>
     </section>
 
     <section class="main-section" id="variables">
@@ -119,6 +284,47 @@
         Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum.
       </p>
+      <code>
+        chooseOperation(operation) {
+        if (this.currentOperand === '') return
+        if (this.previousOperand !== '') {
+          this.compute()
+        }
+        this.operation = operation
+        this.previousOperand = this.currentOperand
+        this.currentOperand = ''
+      }
+      compute() {
+      let computation
+      const prev = parseFloat(this.previousOperand)
+      const current = parseFloat(this.currentOperand)
+      if (isNaN(prev) || isNaN(current)) return
+      switch (this.operation) {
+        case '+':
+          computation = prev + current
+          break
+        case '-':
+          computation = prev - current
+          break
+        case '*':
+          computation = prev * current
+          break
+        case '÷':
+          computation = prev / current
+          break
+        default:
+          return
+      }
+      this.currentOperand = computation
+      this.operation = undefined
+      this.previousOperand = ''
+      }
+      </code>
+      <ol>
+        <li>RUBY</li>
+        <li>CSS</li>
+        <li>JS</li>
+      </ol>
     </section>
 
   </main>
