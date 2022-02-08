@@ -1,0 +1,22 @@
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#navbar {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-doc {
+    width: 80%;
+}
+
+.nav-link {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: #000;
+}
